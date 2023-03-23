@@ -1,19 +1,30 @@
+*{
+    margin: 0;
+}
+
 #meu-nome{
     text-decoration: underline;
+    text-align: center;
+    color: white;
 }
     
 
-#minha-foto{
+.meu-conteudo{
+    padding: 2% 2% 6% 6%;
+    float:inline-start;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    color: black;   
+}
+
+
+
+ #minha-foto{
     border-radius: 100px;
     width: 200px;
 }
 
-.sobre-mim{
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    color: yellow;
-    font-weight: 1000;
-}
+
 
 body{
     background-image: url(torcida.jpg);
@@ -33,6 +44,8 @@ body{
 }
 .lista{
     font-size: 20px;
-    color: #E1F5A9;
+    color: #000000;
     font-weight: 500;
+    clear: both;
 }
+
